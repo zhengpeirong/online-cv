@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Zheng Peirong 郑培荣
@@ -13,11 +13,11 @@ sidebar:
 
     # Sidebar links
     email: pzheng003@e.ntu.edu.sg
-    phone: (0065)87907945 | (0086)13258268925
+    phone: (0065)87907945
     timezone: Singapore Timezone
     citizenship: Chinese
     # website: blog.webjeda.com #do not add http://
-    linkedin: https://www.linkedin.com/in/%E5%9F%B9%E8%8D%A3-%E9%83%91-268477221
+    linkedin: /培荣-郑-268477221/
     # xing: alandoe
     github: zhengpeirong
     # telegram: # add your nickname without '@' sign
@@ -44,120 +44,90 @@ career-profile:
     title: Career Profile
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      adipiscing elit. 
       Second paragraph if required.
 education:
     - degree: MSc in Communications Engineering
       university: Nanyang Technological University
-      time: 2022 - 2023
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Communication Engineering()
+      time: 08/2022 - 2023
+      
+    - degree: Beng in Communication Engineering (Yingcai Honors Program of UESTC)
       university: University of Electronic Science and Technology of China
-      time: 2018 - 2022
+      time: 09/2018 - 07/2022
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Grade Points: 3.65/4
+        - TOEFL(iBT): 103
+      # - GPA 83.9/100
+    - degree: Short-term travel abroad to exchange
+      university: Summer Institute of Magdalene College-Cambridge and Oriel College-Oxford
+      time: 08/2019
+      details: |
+        General Studies: Business Management, Entrepreneurship, International Relations, Professional Skills, Literature, and Physics
+        - Environment,ScienceandTechnology: KeyIssues(94)
+        - Artificial Intelligence with a Focus on Search(82) 
+
+Research Interest:
+
+HONORS AND AWARDS:
+# 2015 - 2017 Academic Scholarship Award of Chang Hungta Science Foundation, Sun Yat-sen University
+# 2015 National Scholarship Award for Graduate Students, China
+# 2015 Wang Bosun Ecology Scholarship Award, Sun Yat-sen University
+# 2015 Second Prize for Outstanding Graduate Award, State Key Laboratory of Biocontrol, Sun Yat-sen University
+# 2008 - 2010 First Prize Scholarship Award for Undergraduate Students, Sun Yat-Sen University
+
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Student
+      time: 10/2021 - 06/2022
+      company: UESTC-BMI-EP, Lai Dakun(Associate Professor)
+      link: https://faculty.uestc.edu.cn/dklai/zh_CN/index.htm
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Graduation Project
+          
+
+    # - role: Senior Software Engineer
+    #   time: 2014 - 2015
+    #   company: Google, London
+    #   details: |
+    #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #     Cum sociis natoque penatibus et magnis dis parturient montes,
+    #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #     pellentesque eu, pretium quis, sem.
+    #       - Bullet point
+    #       - Bullet point
 projects:
-    title: Projects
+    title: Science Research Training
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+      
+    assignments: 
+      - title: 2021 First-class Universities and Disciplines of the World Research Project-CHASE MERCURY SUMMER ACADEMIC SESSION-Automated Communication and Sensing Technology
+      - Attended the courses and finished the assigned tasks
+      - Engaged in using MATLAB to finish the final paper and make charts and diagrams
+      - Completed the research proposal and submitted the piece of writing for publication
+        
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      This work is the result of my graduation project
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: PAFNet:　A Real-time Deep Learning Model for the Prediction of Paroxysmal Atrial Fibrillation Onset using Single-lead ECG
+        # link: "#"
+        authors: Zheng Peirong(Second Author)
+        conference: IN PROGRESS
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 50%
 
-      - name: Javascript & jQuery
-        level: 98%
+      # - name: English
+      #   level: 60%
+        
+      - name: Matlab
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
