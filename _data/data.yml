@@ -7,7 +7,7 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Zheng Peirong 郑培荣
+    name: Zheng Peirong | 郑培荣
     # tagline: Full Stack Developer
     avatar: zpr.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -38,14 +38,14 @@ sidebar:
 
     interests:
       - item: Swimming
-        link:
+        # link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. 
-      Second paragraph if required.
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. 
+#       Second paragraph if required.
 education:
     - degree: MSc in Communications Engineering
       university: Nanyang Technological University
@@ -63,12 +63,30 @@ education:
       time: 08/2019
       details: |
         General Studies: Business Management, Entrepreneurship, International Relations, Professional Skills, Literature, and Physics
-        - Environment,ScienceandTechnology: KeyIssues(94)
-        - Artificial Intelligence with a Focus on Search(82) 
+      # - Environment,Science and Technology: Key Issues (94)
+      # - Artificial Intelligence with a Focus on Search (82) 
+    # - degree: MOOC
+    #   university: University of California San Diego
+    #   time: 
+    #   details: |
 
 Research Interest:
 
-HONORS AND AWARDS:
+honors:
+    - prize:  Yingcai Honors Program, 2018-2022 Academic year, UESTC 
+      time: 06/2022
+    - prize:  Model Student Scholarship, 2020-2021 Academic Year, UESTC 
+      time: 12/2021
+    - prize:  Excellent Communist Youth League Branch, 2020-2021 Academic Year, UESTC 
+      time: 05/2021
+    - prize:  Model Student Scholarship, 2019-2020 Academic Year, UESTC
+      time: 12/2020
+    - prize:  The Freshman Scholarship, UESTC
+      time: 09/2018
+    
+  
+# HONORS AND AWARDS:
+
 # 2015 - 2017 Academic Scholarship Award of Chang Hungta Science Foundation, Sun Yat-sen University
 # 2015 National Scholarship Award for Graduate Students, China
 # 2015 Wang Bosun Ecology Scholarship Award, Sun Yat-sen University
@@ -76,14 +94,7 @@ HONORS AND AWARDS:
 # 2008 - 2010 First Prize Scholarship Award for Undergraduate Students, Sun Yat-Sen University
 
 
-experiences:
-    - role: Senior Student
-      time: 10/2021 - 06/2022
-      company: UESTC-BMI-EP, Lai Dakun(Associate Professor)
-      link: https://faculty.uestc.edu.cn/dklai/zh_CN/index.htm
-      details: |
-        Graduation Project
-          
+# experiences:     
 
     # - role: Senior Software Engineer
     #   time: 2014 - 2015
@@ -96,32 +107,43 @@ experiences:
     #     pellentesque eu, pretium quis, sem.
     #       - Bullet point
     #       - Bullet point
-projects:
-    title: Science Research Training
-    intro: >
-      
-    assignments: 
-      - title: 2021 First-class Universities and Disciplines of the World Research Project-CHASE MERCURY SUMMER ACADEMIC SESSION-Automated Communication and Sensing Technology
-      - Attended the courses and finished the assigned tasks
-      - Engaged in using MATLAB to finish the final paper and make charts and diagrams
-      - Completed the research proposal and submitted the piece of writing for publication
-        
+researches:
+    
+    - title: Graduation Project
+    - role: Senior Student Researcher
+      time: 10/2021 - 06/2022
+      company: Supervisor：Dakun Lai(Associate Professor), UESTC-BMI-EP
+      link: https://faculty.uestc.edu.cn/dklai/zh_CN/index.htm
+    - details: |
+       - Established the database based on three public databases and properly pre-processed data 
+       - Designed a convolutional neural network on TensorFlow to realize the binary classification of ECG sigals
+       - Designed a semi-supervised learning model based on autoencoder that achieves high accuracy with a smaller amount of training data
+    - role: Student Researcher
+      company: Supervisor：Han Xu(Associate Professor), HUST-SNCL
+      link: http://sjic.hust.edu.cn/smc/SNCRG/home.html
+      time: 07/2021 - 08/2021
+    - details: |
+       - Attended the courses and finished the assigned tasks of 2021 First-class Universities and Disciplines of the World Research Project: Automated Communication and Sensing Technology
+       - Engaged in simulating the classical paper and reproduce charts and diagrams using MATLAB
+       - Completed the research proposal and submitted the piece of writing
+
+
 publications:
     title: Publications
     intro: |
-      This work is the result of my graduation project
+      Part of this work is the product of my graduation project
     papers:
-      - title: PAFNet:　A Real-time Deep Learning Model for the Prediction of Paroxysmal Atrial Fibrillation Onset using Single-lead ECG
+      - title: PAFNet：A Real-time Deep Learning Model for the Prediction of Paroxysmal Atrial Fibrillation Onset using Single-lead ECG
         # link: "#"
         authors: Zheng Peirong(Second Author)
-        conference: IN PROGRESS
+        conference: in progress
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python
-        level: 50%
+        level: 65%
 
       # - name: English
       #   level: 60%
