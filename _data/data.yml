@@ -7,8 +7,8 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Zheng Peirong | 郑培荣
-    # tagline: Full Stack Developer
+    name: Zheng Peirong <br />郑培荣
+    tagline: Graduate Student
     avatar: zpr.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://onedrive.live.com/embed?cid=DCD6DEDD03F47C1A&resid=DCD6DEDD03F47C1A%2113936&authkey=AHHlxbg1hO3r8Fc&em=2
 
     languages:
       - idiom: Chinese
@@ -77,21 +77,14 @@ honors:
       time: 06/2022
     - prize:  Model Student Scholarship, 2020-2021 Academic Year, UESTC 
       time: 12/2021
-    - prize:  Excellent Communist Youth League Branch, 2020-2021 Academic Year, UESTC 
-      time: 05/2021
+    # - prize:  Excellent Communist Youth League Branch, 2020-2021 Academic Year, UESTC 
+    #   time: 05/2021
     - prize:  Model Student Scholarship, 2019-2020 Academic Year, UESTC
       time: 12/2020
+    - prize:  Outstanding Volunteer, Bring the Science Education into Community Voluntary Activities, 2018-2019 Academic Year, UESTC
+      time: 12/2019
     - prize:  The Freshman Scholarship, UESTC
       time: 09/2018
-    
-  
-# HONORS AND AWARDS:
-
-# 2015 - 2017 Academic Scholarship Award of Chang Hungta Science Foundation, Sun Yat-sen University
-# 2015 National Scholarship Award for Graduate Students, China
-# 2015 Wang Bosun Ecology Scholarship Award, Sun Yat-sen University
-# 2015 Second Prize for Outstanding Graduate Award, State Key Laboratory of Biocontrol, Sun Yat-sen University
-# 2008 - 2010 First Prize Scholarship Award for Undergraduate Students, Sun Yat-Sen University
 
 
 # experiences:     
@@ -116,7 +109,7 @@ researches:
       link: https://faculty.uestc.edu.cn/dklai/zh_CN/index.htm
     - details: |
        - Established the database based on three public databases and properly pre-processed data 
-       - Designed a convolutional neural network on TensorFlow to realize the binary classification of ECG sigals
+       - Designed a convolutional neural network on TensorFlow to realize the binary classification of ECG signals
        - Designed a semi-supervised learning model based on autoencoder that achieves high accuracy with a smaller amount of training data
     - role: Student Researcher
       company: Supervisor：Han Xu(Associate Professor), HUST-SNCL
@@ -135,8 +128,8 @@ publications:
     papers:
       - title: PAFNet：A Real-time Deep Learning Model for the Prediction of Paroxysmal Atrial Fibrillation Onset using Single-lead ECG
         # link: "#"
-        authors: Zheng Peirong(Second Author)
-        conference: in progress
+        authors: D. K. Lai, Y. X. Bu, P. R. Zheng(Second Author)
+        conference: (in progress) 
 
 skills:
     title: Skills &amp; Proficiency
