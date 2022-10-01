@@ -123,13 +123,13 @@ researches:
 
 publications:
     title: Publications
-    intro: |
-      Part of this work is the product of my graduation project
+    # intro: |
+      # Part of this work is the product of my graduation project
     papers:
       - title: PAFNet：A Real-time Deep Learning Model for the Prediction of Paroxysmal Atrial Fibrillation Onset using Single-lead ECG
         # link: "#"
         authors: D. K. Lai, Y. X. Bu, P. R. Zheng(Second Author)
-        conference: (in progress) 
+        conference: Journal of Biomedical and Health Informatics (JBHI) (Submitted to Journal) 
 
 skills:
     title: Skills &amp; Proficiency
